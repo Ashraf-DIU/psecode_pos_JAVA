@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+    <style>
+        .box{
+            border: 2px solid plum;
+            width: 500px;
+        }
+        .ring{
+            position: relative;
+            left: 50px;
+            top: 40px;
+        }
+        .ring{
+            position: sticky;
+            top: 0px;
+        }
+        .water{
+            position: fixed;
+            top: 200px;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS position</h3>
+    <ol>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="assets/download (1).jpeg" alt="">
+        </div>
+        <div class="box ring">
+            <img src="assets/download.jpeg" alt="">
+        </div>
+        <div class="box water">
+            <img src="assets/download (2).jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>
